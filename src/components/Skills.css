@@ -1,0 +1,39 @@
+.Skills {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Skills h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.Skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Skills ul li {
+    margin: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    flex-grow: 1;
+    max-width: 200px;
+    text-align: center;
+}
+
+.Skills ul li:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
